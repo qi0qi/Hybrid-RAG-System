@@ -1,0 +1,62 @@
+# Python 字节码和缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 构建产物和覆盖率报告
+/build/
+/dist/
+.eggs/
+*.egg-info/
+.coverage
+.coverage.*
+/htmlcov/
+
+# IDE 配置
+.vscode/
+.idea/
+*.code-workspace
+
+# API 密钥和环境变量
+.env
+.env.*
+!.env.example
+
+# 模型权重
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# FAISS 索引、分块数据和备份
+/data/faiss/
+*.faiss
+indexes/
+vector_store/
+
+# 评估脚本的默认输出
+/data/generation_evaluation_results.json
+/data/retrieval_evaluation_results.json
+
+# 日志及缓存
+*.log
+logs/
+.cache/
+
+# 私有数据集
+data/raw/
+data/private/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
